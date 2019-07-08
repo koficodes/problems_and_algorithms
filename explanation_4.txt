@@ -1,0 +1,8 @@
+Dutch National Flag Problem
+----------------------------
+
+The solution to this problem is to arrange the 0's and 2's in the array
+and the 1's will be in the right position automatically. The array is traversed once
+while arranging the elements of the array.
+
+The run time of this solution is O(n) and the space complexity is 0(1)
