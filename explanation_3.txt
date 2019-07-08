@@ -1,0 +1,11 @@
+Rearrange Array Elements
+------------------------
+To solve this problem the array needs to be sorted first, after the two numbers are generated using
+the odd and even indices of the array elements in alternating order.
+
+The most important part of this solution is the sorting and generation of the two numbers,
+with run time of O(nlogn) and O(n) respectively.
+The chosen sorting algorithm is mergesort which has a runtime of O(nlogn)
+Therefore the runtime for the solution is O(nlogn)
+The space complexity of the solution is determined by the sorting algorithm used which is 
+O(n).

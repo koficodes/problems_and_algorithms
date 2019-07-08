@@ -1,0 +1,8 @@
+Search in Rotated Array
+------------------------
+
+The tick for solving this problem is to find the point or position in the array where
+the array is rotated this can be called the pivot and then divide the array into subarray
+and run binary search on them. The pivot is the value for which the next value is smaller.
+
+Since binary search is used the run time is O(log n) and the space complexity is 0(1)
