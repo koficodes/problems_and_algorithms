@@ -1,0 +1,10 @@
+Square root
+------------
+
+The square root of a number can be considered as a search problem where the numbers to 
+search through is 1...m < n where n is the number to find the square root of and m is the 
+maximum possible square root which is less the number itself.
+
+The algorithm used is binary search which has a run time of 0(log n) where n is the size
+of the list of possible square roots to search through. This algorithm also has a space complexity
+of 0(1)
