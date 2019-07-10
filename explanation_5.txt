@@ -1,0 +1,11 @@
+Autocomplete with Tries
+-----------------------
+
+The important methods used are the `gather_words`, `insert` and find.
+The run time of insert is O(w) where w is the number of characters in the word.
+The run time of find is O(P) where P is the number of characters in the prefix
+The run time for gather_words O(G*R) where G is the run time for gather_words function 
+and R is the number of times it called recursively.
+
+The space complexity of the Trie is O(N*M) where N is the memory footprint of a one
+TrieNode and M is the number of TrieNodes in the Trie.
