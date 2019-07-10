@@ -1,0 +1,8 @@
+Max and Min in a Unsorted Array
+-------------------------------
+
+The solution to this problem is to start with an initial
+minimum and maximum value and then update them while traversing
+and comparing the values in the array.
+The run time of the solution is 0(n) where n is the size of the array.
+The space complexity is O(1)
