@@ -1,0 +1,8 @@
+HTTProuter
+----------
+
+The important methods that affects the run time are `insert` and `find` in `RouteTrie`.
+The run time of insert and find is O(p) where p is the number of paths.
+
+The space complexity of the Trie is O((R+T)*M) where R is the size of RoutTrieNode T is the
+size of routTrie and M is the number of routTrie added to the Router.
