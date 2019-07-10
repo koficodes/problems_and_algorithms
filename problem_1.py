@@ -35,3 +35,9 @@ print("Pass" if (4 == sqrt(16)) else "Fail")
 print("Pass" if (1 == sqrt(1)) else "Fail")
 print("Pass" if (5 == sqrt(27)) else "Fail")
 print("Pass" if (9 == sqrt(81)) else "Fail")
+# Pass
+# Pass
+# Pass
+# Pass
+# Pass
+# Pass
