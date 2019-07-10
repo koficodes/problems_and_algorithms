@@ -29,9 +29,9 @@ class RouteTrie:
         # Similar to our previous example you will want to recursively add nodes
         # Make sure you assign the handler to only the leaf (deepest) node of this path
         current_node = self.root
+        # print(paths)
         for path in paths:
-            if path not in current_node.children:
-                current_node = current_node.insert(path)
+            current_node = current_node.insert(path)
         current_node.is_valid_path = True
         current_node.handler = handler
 
@@ -102,8 +102,12 @@ print(router.lookup("/home/about/"))
 # should print 'not found handler' or None if you did not implement one
 print(router.lookup("/home/about/me"))
 
+router.add_handler("/home/kk", "kk handler")
+print(router.lookup("/home/kk"))
+
 # root handler
 # not found handler
 # about handler
 # about handler
-# not found handle
+# not found handler
+# kk handler
